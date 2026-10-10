@@ -1,0 +1,142 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 81,
+    "sha256": "175890a9a8cd5ac41df7bfff533efaa88af17c588c9108468cdf5be9d0d1f114"
+  },
+  {
+    "path": ".github/workflows/import.yml",
+    "bytes": 2113,
+    "sha256": "434b78cc0d94b6641ca6f6a3da7659cc3a1934cd8c4f86d421fe5e213f6e17af"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 79,
+    "sha256": "d7318bb9a66928c94bb7ddaba9ed612fe6332bf7d6262dcb02b24f7266310f71"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2080,
+    "sha256": "839720e9f9133c0d2a88770abcdbb543336d790d06700a688fd831736b988354"
+  },
+  {
+    "path": "data/market_data_2026-09-19.json.gz.part000",
+    "bytes": 20971520,
+    "sha256": "db2c2af9692732edb0c4ee5adb4d710331dc76c33a10093beb5658298f993ad0"
+  },
+  {
+    "path": "data/market_data_2026-09-19.json.gz.part001",
+    "bytes": 20971520,
+    "sha256": "0fc125e43a77966323cf85c2c946eb6337d3cd9c71db0721bcfb1ed2b8db49fd"
+  },
+  {
+    "path": "data/market_data_2026-09-19.json.gz.part002",
+    "bytes": 20971520,
+    "sha256": "6c111fbdf7ce7b1ca3150a6e142277ba111f786218df2ae9a66f875ba74fd6c4"
+  },
+  {
+    "path": "data/market_data_2026-09-19.json.gz.part003",
+    "bytes": 20971520,
+    "sha256": "bb28e2e8b59608a6544b61c58e694fb4c13b9417502ddeb9e70787cd39dd93ef"
+  },
+  {
+    "path": "data/market_data_2026-09-19.json.gz.part004",
+    "bytes": 20971520,
+    "sha256": "c57b9ddaf309f211276678710df5628da6b55aa75df37cd5cc17aeb48a49b453"
+  },
+  {
+    "path": "data/market_data_2026-09-19.json.gz.part005",
+    "bytes": 2290677,
+    "sha256": "5091a628be36cf6a11ac6ef2136fdade9a9231074fb82ca620d34220fde710cd"
+  },
+  {
+    "path": "docs/explorer.html",
+    "bytes": 2928,
+    "sha256": "16ebac0c3fa996f88124172b77eaf6948aaee489096fbaa40f1ad94b27baeeef"
+  },
+  {
+    "path": "historical/backtester.py",
+    "bytes": 26678,
+    "sha256": "3027649ac5daa5cf1b7f14060ce6cc3bf365bc28732d3d58c16f4aa63afab773"
+  },
+  {
+    "path": "historical/dynamic_imbalance_summary.csv",
+    "bytes": 360903,
+    "sha256": "374e69b1ef64f696ecd89e65103ed38f936316c450cca3b5cd1df4642b68ae51"
+  },
+  {
+    "path": "historical/imbalance_hitting_time_summary.csv",
+    "bytes": 25296,
+    "sha256": "b398643cebc03426de78dd667b5f71f883de1f200aba10c8fe176a2c66d2c148"
+  },
+  {
+    "path": "historical/kinematic_vs_ar_analysis.py",
+    "bytes": 12586,
+    "sha256": "7bac33c9a266fc3f9cc2737ac606bce69bfd99642a56a39ccfdc80059fe958b3"
+  },
+  {
+    "path": "historical/local_backtest_equity.csv",
+    "bytes": 1402683,
+    "sha256": "e614147cbd240387daf1ba9be60f6eb6434167236aa0542c695c798cfc66e5ff"
+  },
+  {
+    "path": "historical/local_backtest_fills.csv",
+    "bytes": 169298,
+    "sha256": "efdea6a85bbe8a4158a06c1e3bd67f0367fb9fdd854d615d3165cac354bfa6a5"
+  },
+  {
+    "path": "historical/microstructure_ablation.csv",
+    "bytes": 1979,
+    "sha256": "bd05263834efb6c273de1bcfc8671158d9b47fc938a8e8eeb8d1095d1e4dbd2d"
+  },
+  {
+    "path": "historical/stock_fi2010_microstructure_results.zip",
+    "bytes": 617935,
+    "sha256": "e705f5f53a8375e2c782d847d8951e35c86f4c96ba4e37f5d421ee1839ec606d"
+  },
+  {
+    "path": "historical/trader_v10_regime_scored.py",
+    "bytes": 19164,
+    "sha256": "1a1370627ae5514018f9d0f97d5705bdc0d0f90eaa71b73d398e4ad2d24034cc"
+  },
+  {
+    "path": "historical/two_brain_binance_backtest.py",
+    "bytes": 13154,
+    "sha256": "7f7280dbe6f47538cbd722b28a661ff054e7f08fd3566520e9f55b8d18ab920b"
+  },
+  {
+    "path": "historical/volatile_microstructure_results.zip",
+    "bytes": 606129,
+    "sha256": "6207afb1e3ec6de652fb772e74d53d33438b3add8230e23178b780e8b9e6eeca"
+  },
+  {
+    "path": "large_files.json",
+    "bytes": 482,
+    "sha256": "d1d3c93842ac6d9e413e044f5944dc5907ca2ab0c410cfb8280567b333a6a7ff"
+  },
+  {
+    "path": "requirements-verified.txt",
+    "bytes": 179,
+    "sha256": "814fc2ca0fa1572ff21f99b1a22c089ecefa65d20113ea6e059578394b934f55"
+  },
+  {
+    "path": "restore_large_files.py",
+    "bytes": 485,
+    "sha256": "b9f967579e24089c7922dcd710c7e8a6e2ac8e8f49dff0fe40410d747a2ca1f0"
+  },
+  {
+    "path": "verification/ORIGINAL_MANIFEST.json",
+    "bytes": 2857,
+    "sha256": "ad4bf480196477331b3db40d19dd332a56b1e1a619309b09c8a55154bfda81ab"
+  },
+  {
+    "path": "verification/runtime_versions.json",
+    "bytes": 189,
+    "sha256": "dfb5724577a42ecd7776fb4c0cad6ab9a40576428ce330d43200509aee1aac9a"
+  },
+  {
+    "path": "verification/source_inventory.csv",
+    "bytes": 734,
+    "sha256": "950db770a37a6cd26fdf00cc508344aec873a19a586729f357704b294972d85f"
+  }
+]

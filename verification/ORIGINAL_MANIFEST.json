@@ -1,0 +1,92 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 213,
+    "sha256": "9b922e04992971067feee86d2073fb1d0adfb873061f33ed5fd3d5bea82f2d9a"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 55,
+    "sha256": "9629091c0718e5ad70d77d1e0bf2881f5aba8c6a8f15a41a7fb0925e29b81e2a"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1639,
+    "sha256": "22c20d67e95d8e06ed158373da9dd0fbff5575d58eb07dbc7b534d72dae4ae7f"
+  },
+  {
+    "path": "data/market_data_2026-09-19.json.gz",
+    "bytes": 107148277,
+    "sha256": "554a8403f445edda73ae6718485140c3f23df95d55e2b90ba685a2d625f017ac"
+  },
+  {
+    "path": "historical/backtester.py",
+    "bytes": 26678,
+    "sha256": "3027649ac5daa5cf1b7f14060ce6cc3bf365bc28732d3d58c16f4aa63afab773"
+  },
+  {
+    "path": "historical/dynamic_imbalance_summary.csv",
+    "bytes": 360903,
+    "sha256": "374e69b1ef64f696ecd89e65103ed38f936316c450cca3b5cd1df4642b68ae51"
+  },
+  {
+    "path": "historical/imbalance_hitting_time_summary.csv",
+    "bytes": 25296,
+    "sha256": "b398643cebc03426de78dd667b5f71f883de1f200aba10c8fe176a2c66d2c148"
+  },
+  {
+    "path": "historical/kinematic_vs_ar_analysis.py",
+    "bytes": 12586,
+    "sha256": "7bac33c9a266fc3f9cc2737ac606bce69bfd99642a56a39ccfdc80059fe958b3"
+  },
+  {
+    "path": "historical/local_backtest_equity.csv",
+    "bytes": 1402683,
+    "sha256": "e614147cbd240387daf1ba9be60f6eb6434167236aa0542c695c798cfc66e5ff"
+  },
+  {
+    "path": "historical/local_backtest_fills.csv",
+    "bytes": 169298,
+    "sha256": "efdea6a85bbe8a4158a06c1e3bd67f0367fb9fdd854d615d3165cac354bfa6a5"
+  },
+  {
+    "path": "historical/microstructure_ablation.csv",
+    "bytes": 1979,
+    "sha256": "bd05263834efb6c273de1bcfc8671158d9b47fc938a8e8eeb8d1095d1e4dbd2d"
+  },
+  {
+    "path": "historical/stock_fi2010_microstructure_results.zip",
+    "bytes": 617935,
+    "sha256": "e705f5f53a8375e2c782d847d8951e35c86f4c96ba4e37f5d421ee1839ec606d"
+  },
+  {
+    "path": "historical/trader_v10_regime_scored.py",
+    "bytes": 19164,
+    "sha256": "1a1370627ae5514018f9d0f97d5705bdc0d0f90eaa71b73d398e4ad2d24034cc"
+  },
+  {
+    "path": "historical/two_brain_binance_backtest.py",
+    "bytes": 13154,
+    "sha256": "7f7280dbe6f47538cbd722b28a661ff054e7f08fd3566520e9f55b8d18ab920b"
+  },
+  {
+    "path": "historical/volatile_microstructure_results.zip",
+    "bytes": 606129,
+    "sha256": "6207afb1e3ec6de652fb772e74d53d33438b3add8230e23178b780e8b9e6eeca"
+  },
+  {
+    "path": "requirements-verified.txt",
+    "bytes": 179,
+    "sha256": "814fc2ca0fa1572ff21f99b1a22c089ecefa65d20113ea6e059578394b934f55"
+  },
+  {
+    "path": "verification/runtime_versions.json",
+    "bytes": 189,
+    "sha256": "dfb5724577a42ecd7776fb4c0cad6ab9a40576428ce330d43200509aee1aac9a"
+  },
+  {
+    "path": "verification/source_inventory.csv",
+    "bytes": 734,
+    "sha256": "950db770a37a6cd26fdf00cc508344aec873a19a586729f357704b294972d85f"
+  }
+]

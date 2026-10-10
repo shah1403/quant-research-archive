@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+/data/market_data_2026-09-19.json.gz

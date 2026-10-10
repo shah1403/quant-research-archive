@@ -1,0 +1,14 @@
+[
+  {
+    "path": "data/market_data_2026-09-19.json.gz",
+    "sha256": "554a8403f445edda73ae6718485140c3f23df95d55e2b90ba685a2d625f017ac",
+    "parts": [
+      "data/market_data_2026-09-19.json.gz.part000",
+      "data/market_data_2026-09-19.json.gz.part001",
+      "data/market_data_2026-09-19.json.gz.part002",
+      "data/market_data_2026-09-19.json.gz.part003",
+      "data/market_data_2026-09-19.json.gz.part004",
+      "data/market_data_2026-09-19.json.gz.part005"
+    ]
+  }
+]

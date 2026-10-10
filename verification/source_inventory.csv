@@ -1,0 +1,8 @@
+source,status,execution
+historical/backtester.py,parsed,see README; parsing is not a behavioral test
+historical/kinematic_vs_ar_analysis.py,parsed,see README; parsing is not a behavioral test
+historical/trader_v10_regime_scored.py,parsed,see README; parsing is not a behavioral test
+historical/two_brain_binance_backtest.py,parsed,see README; parsing is not a behavioral test
+historical/stock_fi2010_microstructure_results.zip::stock_fi2010_microstructure_test.py,parsed,archived; not fully rerun
+historical/volatile_microstructure_results.zip::volatile_microstructure_test.py,parsed,archived; not fully rerun
+historical/volatile_microstructure_results.zip::binance_btc_microstructure_test.py,parsed,archived; not fully rerun
