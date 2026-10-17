@@ -16,8 +16,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 2080,
-    "sha256": "839720e9f9133c0d2a88770abcdbb543336d790d06700a688fd831736b988354"
+    "bytes": 2380,
+    "sha256": "de969747e43e86e41d5a3566c5811b07efff39e079dba682f7f68bf00a3a5c42"
   },
   {
     "path": "data/market_data_2026-09-19.json.gz.part000",
@@ -51,8 +51,8 @@
   },
   {
     "path": "docs/explorer.html",
-    "bytes": 2928,
-    "sha256": "16ebac0c3fa996f88124172b77eaf6948aaee489096fbaa40f1ad94b27baeeef"
+    "bytes": 3064,
+    "sha256": "64ed60dc9922b52534146fae1ca9be9e7dcecd159ee97cf632c230d67054f8cd"
   },
   {
     "path": "historical/backtester.py",
