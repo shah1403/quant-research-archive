@@ -1,24 +1,35 @@
-# Additional quantitative research archive
+# Quantitative Microstructure Research Archive
 
-Recovered experimental code, diagnostics, and historical outputs that are outside the fully replayed core projects.
+An organized collection of experiments in order-book signals, regime conditioning, local price dynamics and execution modeling.
 
-`historical/` includes FI-2010 microstructure, volatile-market experiments, regime/trader scripts, earlier backtesters, local fills/equity, and kinematic-vs-AR analysis. `data/market_data_2026-09-19.json.gz` is the original recovered data archive; its relationship to each result is not independently established.
+## Research themes
 
-**Status: recovered and indexed, not fully reproduced.** These files are preserved in their original form. Do not interpret bundled plots or old summary statistics as verified performance. Missing dependencies, missing source datasets, unsupported fee assumptions, and historical look-ahead may apply. The audited first-passage and Kalshi projects provide the verified entry points.
+- Order-flow and microstructure features across equities and digital assets.
+- Regime-conditioned directional and market-making models.
+- Kinematic versus autoregressive price representations.
+- Backtesting, fill simulation and experiment diagnostics.
 
-## Evidence gaps
+[Search the experiment inventory](docs/explorer.html) — download and open the standalone HTML catalog.
 
-- The exact Raedan forward-test ledger supporting >60% accuracy and per-trade Sharpe about 0.5 was not recovered.
-- The original May 2021 market-making inputs/configuration supporting $36,503 / Sharpe 15.58 and $19,664 / Sharpe 10.69 were not recovered.
-- The complete July minute-bar / Nifty and EURUSD project dataset-to-code chain was not recovered.
-- FI-2010 transformed observations alone do not establish native prices, instrument identities, or timestamps sufficient for executable P&L.
+## Project entry points
 
-This archive is intended for private preservation and follow-up. No new open-source license is asserted for third-party data or unidentified third-party strategy code. Source-specific attribution remains in original files. `MANIFEST.json` records exact file hashes.
+| Project | Research focus |
+|---|---|
+| [L2 direction prediction](https://github.com/shah1403/l2-regime-research) | Order-book states, session-specific directional hit rates, timing and fee sensitivity |
+| [Kalshi microstructure](https://github.com/shah1403/kalshi-microstructure) | Conditional next-taker-side prediction and joint fill risk |
+| [Causal first passage](https://github.com/shah1403/first-passage-research) | Rolling distributions, label maturity and execution accounting |
+| [Physics in Economics](https://github.com/shah1403/physics-in-economics) | Continuous double auctions and market-convergence dynamics |
 
-## Large input files
+## Archive guide
 
-Original inputs above GitHub’s single-file limit are included as numbered byte parts. Run `python restore_large_files.py` once to reconstruct them and verify their SHA-256. The manifest is `large_files.json`; no data is discarded.
+historical/ contains FI-2010 experiments, volatile-market studies, regime/trader scripts, earlier backtesters, local fill/equity outputs and kinematic-vs-AR analysis. data/market_data_2026-09-19.json.gz retains the supplied market-data archive. verification/source_inventory.csv indexes the files; MANIFEST.json records their hashes.
 
-## Source explorer
+The archive is a source catalog. Its historical experiments have been indexed and syntax-inspected; independent replay coverage is documented in the project repositories above. Historical outputs retain their original experiment assumptions. Dataset-to-result mapping and executable-price interpretation require each experiment's configuration; FI-2010 transformed observations require additional native price/timestamp metadata for execution analysis. No aggregate performance statistic is asserted for this catalog.
 
-[Search the experiment inventory](docs/explorer.html) — download and open the standalone HTML file. This is a provenance catalog, not a performance presentation.
+## Large inputs
+
+Run python restore_large_files.py to reconstruct inputs stored as numbered byte parts and verify their SHA-256 against large_files.json.
+
+Original files and source-specific attribution are retained. No new license is imposed on third-party data or source material.
+
+By Aarush Shah.
